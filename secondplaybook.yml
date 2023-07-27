@@ -1,0 +1,5 @@
+- name: My Second Playbook
+  hosts: all
+  tasks:
+  - name: Ping
+    ansible.builtin.ping:
